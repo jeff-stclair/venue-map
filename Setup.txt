@@ -1,0 +1,18 @@
+Target: AWS Lightsail
+
+First step is getting something running locally
+Then into github
+Then to a point where I can git pull & run on the server
+
+
+From an empty git repo:
+
+C:\Users\jstcl\Source\Repos\venue-map (master)
+λ npm install express-generator -g
+
+C:\Users\jstcl\Source\Repos\venue-map (master)
+λ express concerts --git
+
+cd concerts && npm install
+
+At this point, running `SET DEBUG=concerts:* & npm start` spins up a hello world at localhost:3000
